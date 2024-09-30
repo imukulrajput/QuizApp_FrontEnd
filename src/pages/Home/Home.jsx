@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Fragment, useEffect,useState } from "react";
-import { Navbar,QuizCard } from "../../component";
+import { Navbar,QuizCard ,Footer} from "../../component";
 import "./Home.css"
 
 export const Home = () =>{
@@ -20,12 +20,14 @@ export const Home = () =>{
 
     return (
         <Fragment>
-             <Navbar />
+             <Navbar route="home"/>
              <main className="main d-flex wrap gap-md align-center justify-center">
                 {
-                    categories.map(category=> < QuizCard category={category} key={category.id}/>)
+                    categories.map(category=> < QuizCard quizCategory={category} key={category.id}/>)
                 }
-             </main> 
+             </main>
+            
+            <Footer/> 
        </Fragment> 
      );
 }

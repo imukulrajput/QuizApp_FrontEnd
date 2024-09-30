@@ -1,13 +1,18 @@
 @import url("https://uilight.netlify.app/main.css");
 
 :root {
-  --bg-color: #3a3b89;
-  --primary-color: #21224e;
-  --secondary-color: #9f4393;
-  --accent-color: #3a3b89;
-  --text-color-primary: #f8f7f8;
-  --green-badge: #22c55e;
+  --bg-color:  #f6f9fc; 
+  --primary-color: #707070;
+   --secondary-color: #707070; 
+  --accent-color: #d2d2d2; 
+  --text-color-primary: #363030; 
+  --green-badge: #03dac6; 
 }
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+
 
 body {
   background-color: var(--bg-color);

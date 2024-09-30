@@ -1,0 +1,91 @@
+/* General Styling */
+.results {
+    margin-top: 3rem;
+    background-color: var(--primary-color);
+    color: var(--text-color-primary);
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    transform: translate(-50%);
+    left: 50%;
+    animation: fadeIn 0.8s ease;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate(-50%, 10%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+  }
+  
+  /* Score Text */
+  .score-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    background-color: var(--secondary-color);
+    height: 1.5rem;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #22c55e;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Buttons */
+  .actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .results {
+      padding: 2rem;
+      width: 95%;
+    }
+  }
+  

@@ -1,7 +1,16 @@
 .main {
     padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top for proper layout */
+    min-height: 80vh; /* Ensure main takes enough height to push footer down */
 }
 
-.gap-md {
-    gap: 2rem;
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
 }

@@ -1,5 +1,5 @@
 .d-grid {
-    margin: 7rem 0 1rem 0;
+    margin: 3rem 0 1rem 0;
     display: grid;
     place-content: center center;
 }
@@ -58,8 +58,15 @@
 
 .login-btn {
   width: 100%;
-  background-color: var(--bg-color);
+  background-color: transparent;
+  border: 1px solid var(--bg-color);
   color: var(--text-color-primary);
+}
+
+.btn-outline-primary:hover {
+  color: var(--background-color);
+  background-color: var(--bg-color);
+  cursor: pointer;
 }
 
 .padding-small {

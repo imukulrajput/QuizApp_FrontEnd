@@ -50,6 +50,10 @@ export const AuthLogin  = () =>{
       } 
   }
 
+  const handleSignupClick = () =>{
+     navigate("/auth/signup");
+  }
+
 
      return (
         <div className="d-grid">
@@ -72,6 +76,11 @@ export const AuthLogin  = () =>{
                     <button className="button login-btn btn-outline-primary btn-margin sign-up-btn" onClick={handleTestCredentialsClick}>
                         Login with Test Credentials
                     </button>
+                </div>
+                <div>
+                    <button className="button login-btn btn-outline-primary btn-margin sign-up-btn" onClick={handleSignupClick}>
+                        Create New Account
+                   </button>
                 </div>
             </div>
         </div>

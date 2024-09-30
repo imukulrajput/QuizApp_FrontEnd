@@ -1,3 +1,6 @@
 export { Navbar } from "./Navbar/Navbar"
 export { QuizCard } from "./QuizCard/QuizCard"
-export { AuthLogin } from "./Auth/AuthLogin";
+export { AuthLogin } from "./Auth/AuthLogin"
+export { AuthSignup } from "./Auth/AuthSignup"
+export { QNA } from "./QNA/QNA"
+export { Footer } from "./Footer/Footer"

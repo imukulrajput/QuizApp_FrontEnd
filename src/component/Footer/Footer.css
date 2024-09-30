@@ -1,0 +1,57 @@
+.footer {
+    background-color: var(--primary-color);
+    color: var(--text-color-primary);
+    padding: 1.5rem 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for a floating effect */
+    margin-top: auto;
+    position: relative; /* Ensure the footer stays in its position and doesn't block content */
+    z-index: 2;
+  }
+  
+  .footer p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .footer .link {
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .footer .source-image {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth animation on hover */
+  }
+  
+  .footer .source-image:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+  }
+  
+  .footer .d-flex {
+    margin-top: 1rem;
+  }
+  
+  .footer span {
+    color: red;
+    font-size: 1.3rem;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .footer {
+      padding: 1rem 0;
+    }
+  
+    .footer .source-image {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .footer p {
+      font-size: 1rem;
+    }
+  }
+  
