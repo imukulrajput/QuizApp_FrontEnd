@@ -35,7 +35,7 @@ export const quizReducer = (state,{type,payload}) =>{
                 ...state,
                 index:0,
                 quiz:payload,
-                score:0,
+               
                selectedOption:null
             }
 

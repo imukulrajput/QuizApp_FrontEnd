@@ -36,7 +36,7 @@
   
   /* Progress Bar */
   .progress-bar {
-    background-color: var(--secondary-color);
+    background-color: white;
     height: 1.5rem;
     border-radius: 5px;
     overflow: hidden;
