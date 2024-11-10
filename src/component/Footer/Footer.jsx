@@ -4,12 +4,16 @@ export const Footer = () => {
   return (
     <footer className="footer d-flex direction-column align-center">
       <p>
-       Made by Mukul Rajput
+        SmartQ Private Limited
       </p>
+      <div>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      </div>
       <div className="d-flex gap align-center padding-all-8">
         <a
           href="https://github.com/imukulrajput/"
-          className="link"
+          className="link" 
           target="_blank"
           rel="noreferrer"
         >
