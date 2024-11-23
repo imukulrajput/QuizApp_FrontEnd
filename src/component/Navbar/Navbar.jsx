@@ -64,9 +64,12 @@ export const Navbar = ({ route }) => {
                 </Link>
               </li>
               <li className="list-item-inline">
-                <Link to="/auth/signup" className="link cursor">
+                {
+                  token ? " " :  <Link to="/auth/signup" className="link cursor">
                   Signup
                 </Link>
+                }
+               
               </li>
             </Fragment>
           )}
